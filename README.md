@@ -4,7 +4,7 @@ This is a collection of scripting samples written to audit and assist in the enr
 
 ## "endpoint_audit.sh" Bash Script:
 
-Bash script created for auditing Cisco video endpoints before enrollment. 
+Script created for auditing Cisco video endpoints before enrollment. 
 Script status is printed to the terminal, output data is parsed and saved in a .csv file.
 The following checks are performed:
  - Confirm Hostname & IP
@@ -27,7 +27,7 @@ The following checks are performed:
 
 ## "vcs_audit.sh" Bash Script:
 
-Bash script was written to audit Cisco VCS / Expressway devices before enrollment.
+Script was written to audit Cisco VCS / Expressway devices before enrollment.
 Script status is printed to the terminal, output data is parsed and saved in a .csv file.
 An optional perameter was created to only collect device warnings if needed.
 The following checks are performed:
@@ -50,7 +50,7 @@ The following checks are performed:
 
 ## "vos_mon.sh" Bash Script:
 
-Bash script for creating the vos_mon monitoring user on Cisco VOS Appliances.
+Script for creating the vos_mon monitoring user on Cisco VOS Appliances.
 A privilege level 1 account is created and tested with many errors being accounted for.
 Script status is printed to the terminal, a device completion report is saved in a text file.
 
@@ -64,7 +64,7 @@ Script status is printed to the terminal, a device completion report is saved in
 
 ## "vos-audit.sh" Bash Script:
 
-Bash script for auditing Cisco VOS appliances using TCL over SSH before enrollment. 
+Script for auditing Cisco VOS appliances using TCL over SSH before enrollment. 
 Script status is printed to the terminal, audit information is saved in a text file.
 Output is gathered for the following commands:
  - show status
