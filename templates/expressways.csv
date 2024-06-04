@@ -1,0 +1,6 @@
+host,vcs_root,root_pass,vcs_admin,admin_pass
+,,,,
+,,,,
+,,,,
+,,,,
+<Hostname or IP>,root,<Root Pass>,admin,<Admin Pass>
