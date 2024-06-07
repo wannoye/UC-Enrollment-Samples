@@ -2,10 +2,10 @@
 
 This is a collection of scripting samples written to audit and assist in the enrollment process for Unified Communications devices.
 
-## "endpoint_audit.sh" Bash Script:
+## "endpoint_audit.sh" Bash Script
 
-Script created for auditing Cisco video endpoints before enrollment.
-Script status is printed to the terminal, output data is parsed and saved in a .csv file.
+Created to audit Cisco video endpoints prior to enrollment.<br/>
+Script status is printed to the terminal, output data is parsed and saved in a .csv file.<br/>
 The following checks are performed:
 - Confirm Hostname & IP
 - ICMP
@@ -25,11 +25,11 @@ The following checks are performed:
 
 ```./END-Audit.sh # Optional [-h]```
 
-## "vcs_audit.sh" Bash Script:
+## "vcs_audit.sh" Bash Script
 
-Script was written to audit Cisco VCS / Expressway devices before enrollment.
-Script status is printed to the terminal, output data is parsed and saved in a .csv file.
-An optional parameter was created to only collect device warnings if needed.
+Written to audit Cisco VCS / Expressway devices prior to enrollment.<br/>
+Script status is printed to the terminal, output data is parsed and saved in a .csv file.<br/>
+An optional parameter was created to only collect device warnings if needed.<br/>
 The following checks are performed:
 - Confirm Hostname & IP
 - ICMP
@@ -48,10 +48,10 @@ The following checks are performed:
 
 ```./vcs-audit.sh # Optional [-h|-w]"```
 
-## "vos_mon.sh" Bash Script:
+## "vos_mon.sh" Bash Script
 
-Script for creating a monitoring user account on Cisco VOS Appliances.
-A privilege level 1 account is created and tested with many errors being accounted for.
+Creates a user account utilized by monitoring systems on Cisco VOS Appliances.<br/>
+A privilege level 1 account is created and tested with many errors being accounted for.<br/>
 Script status is printed to the terminal, a device completion report is saved in a text file.
 
 ### Requires:
@@ -62,10 +62,10 @@ Script status is printed to the terminal, a device completion report is saved in
 
 ```./vos_mon.sh # Optional [-h]```
 
-## "vos-audit.sh" Bash Script:
+## "vos-audit.sh" Bash Script
 
-Script for auditing Cisco VOS appliances using TCL over SSH before enrollment.
-Script status is printed to the terminal, audit information is saved in a text file.
+Audits Cisco VOS appliances using TCL over SSH prior to enrollment.<br/>
+Script status is printed to the terminal, audit information is saved in a text file.<br/>
 Output is gathered for the following commands:
 - show status
 - show account
